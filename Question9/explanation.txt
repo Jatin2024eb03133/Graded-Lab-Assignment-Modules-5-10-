@@ -1,0 +1,3 @@
+This program demonstrates zombie process prevention by creating multiple child processes and waiting 
+for each to finish. The parent process prints the PID of each child when created 
+and after cleanup, ensuring no zombie processes remain.
