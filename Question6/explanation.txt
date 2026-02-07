@@ -1,0 +1,9 @@
+Script takes a filename argument and validates it exists and is readable
+
+Uses tr to lowercase text and split into words
+
+Uses awk + sort to find longest and shortest words
+
+Uses awk to compute average word length
+
+Uses sort | uniq | wc -l to count unique words
