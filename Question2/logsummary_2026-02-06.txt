@@ -1,0 +1,8 @@
+Log Summary Report - 2026-02-06
+------------------------
+Total entries: 4
+INFO: 1
+WARNING: 1
+ERROR: 2
+Most recent ERROR:
+2025-01-12 10:17:10 ERROR Network timeou

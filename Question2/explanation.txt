@@ -1,0 +1,10 @@
+This script analyzes a log file passed as a command-line argument.
+
+It validates the file exists and is readable.
+It counts total log entries and number of INFO, WARNING, and ERROR messages.
+It displays the most recent ERROR message.
+It generates a report file named logsummary_<date>.txt with the results.
+
+grep is used to filter log levels.
+wc -l counts total entries.
+tail -n 1 finds the latest ERROR.
