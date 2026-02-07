@@ -1,0 +1,13 @@
+Script compares dirA and dirB
+
+Uses comm on sorted filenames to list:
+
+only in dirA (comm -23)
+
+only in dirB (comm -13)
+
+common files (comm -12)
+
+Uses cmp -s to check if common files have identical contents
+
+Does not copy or modify any files
