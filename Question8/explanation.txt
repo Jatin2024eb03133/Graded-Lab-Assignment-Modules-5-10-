@@ -1,0 +1,9 @@
+This script moves all files from a given directory into a backup/ folder.
+
+1) It checks that exactly one argument (directory path) is provided.
+2) It validates the directory exists.
+3) It creates a backup/ folder inside the directory.
+4) It loops through all items in the directory and moves only regular files.
+5) Each mv runs in the background using '&'.
+6) After starting each move, it prints the PID using $!.
+7) It uses wait to pause until all background moves finish.
