@@ -1,0 +1,13 @@
+Question 1 – CLI Bash Script
+
+This script accepts one argument: a file or directory path.
+
+If a file is provided:
+- Displays number of lines, words, and characters using wc
+
+If a directory is provided:
+- Counts total files
+- Counts number of .txt files
+
+If the path does not exist:
+- Displays an error message.
